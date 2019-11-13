@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Confectionarium</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+    <header>
+
+        <a href="index.html" class="site-logo">Confectionarium</a>
+        
+        <nav class="site-nav">
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="submit.html" class="current-page">Submit</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h1>Submit a Recipe</h1>
+
+        <form action="">
+
+                <label for="recipe-name">Recipe Name</label>
+                <small class="form-microcopy">What's it called?</small>
+                <input type="text" id="recipe-name" name="recipe-name" placeholder="Scrummy little tea cakes">
+
+                <label for="short-description">Short Description</label>
+                <small class="form-microcopy">A little summary</small>
+                <input type="text" id="short-description" name="short-description" placeholder="12 lovely little lemon tea cakes">
+
+                <label for="email">Email</label>
+                <small class="form-microcopy">We won't share this with anyone</small>
+                <input type="email" id="email" name="email" placeholder="Mary@Berry.com">
+
+                <label for="recipe">Recipe</label>
+                <small class="form-microcopy">The more detail the better!</small>
+                <textarea id="recipe" name="recipe" placeholder="In a medium bowl, cream together the butter and sugar until smooth..."></textarea>
+
+                <label for="select-category">Choose a category</label>
+                <select id="select-category" name="select-category">
+                    <option value="" selected disabled hidden>Select one...</option>
+                    <option>Cakes</option>
+                    <option>Candies</option>
+                    <option>Other</option>
+                </select>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+        </form>
+    </main>
+
+    <footer>
+
+        <div>
+
+            <p>Confectionarium</p>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="submit.html">Submit</a></li>
+            </ul>
+
+        </div>
+
+        <p class="footer-copywrite">&copy; Confectionarium 2019</p>
+
+    </footer>
+</body>
+</html>
